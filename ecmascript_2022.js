@@ -3,6 +3,7 @@
 
 // Top level Await - Basic Example
 import fetchTabs from "./fetch_tabs";
+
 const tabs = fetchTabs();
 console.log(tabs);
 
