@@ -15,13 +15,13 @@ const values = Object.values(objPerson);
 const objResult = Object.entries(objPerson);
 
 const objNewResult = objResult.map((item) => {
-    const [objFirst, objSecond] = item;
+    const [objFirst, objSecond] = item; 
 
-    return objFirst;
+    return objFirst; 
 });
 
 for (const [objFirst, objSecond] of objResult) {
-    console.log({objFirst}, {objSecond});
+    console.log({ objFirst }, { objSecond });
 };
 
 console.log('Keys', keys);
